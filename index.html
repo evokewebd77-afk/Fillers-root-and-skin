@@ -2375,23 +2375,61 @@
             }
 
             .hero {
-                padding: 2.5rem 0 3.5rem;
+                padding: 2.5rem 0 3rem;
                 text-align: center;
-                min-height: auto;
+                min-height: 560px;
+                background-image: url('https://res.cloudinary.com/didtfhfme/image/upload/c_fill,g_auto,ar_3:4,w_800,q_auto,f_auto/v1791952570/e8a57a9a-8bff-4f8b-b2f7-f1ac780ce948_vqfyq8.png');
+                background-position: center center;
+                background-size: cover;
             }
 
             .hero::before {
                 background: linear-gradient(180deg,
-                    rgba(250, 248, 249, 0.78) 0%,
-                    rgba(250, 248, 249, 0.62) 55%,
-                    rgba(250, 248, 249, 0.45) 100%);
+                    rgba(37, 9, 26, 0.72) 0%,
+                    rgba(37, 9, 26, 0.58) 55%,
+                    rgba(37, 9, 26, 0.42) 100%);
             }
 
             [data-theme="dark"] .hero::before {
                 background: linear-gradient(180deg,
-                    rgba(15, 5, 11, 0.96) 0%,
-                    rgba(15, 5, 11, 0.9) 55%,
-                    rgba(15, 5, 11, 0.78) 100%);
+                    rgba(15, 5, 11, 0.82) 0%,
+                    rgba(15, 5, 11, 0.7) 55%,
+                    rgba(15, 5, 11, 0.55) 100%);
+            }
+
+            .hero h1 {
+                color: #ffffff;
+            }
+
+            .hero h1 .highlight {
+                color: var(--brand-orange-light);
+            }
+
+            .hero-description {
+                color: rgba(255, 255, 255, 0.92);
+            }
+
+            .trust-badges {
+                color: #ffffff;
+            }
+
+            .trust-badge-item .bullet {
+                color: var(--brand-orange-light);
+            }
+
+            .community-banner {
+                color: rgba(255, 255, 255, 0.85);
+            }
+
+            .community-banner strong {
+                color: #ffffff;
+            }
+
+            .hero h1,
+            .hero-description,
+            .trust-badges,
+            .community-banner {
+                text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
             }
 
             .hero-kicker-pill {
@@ -2831,25 +2869,6 @@
             <div class="section-header">
                 <div class="section-kicker">Clinical Excellence</div>
                 <h2 class="section-title">A medical approach to <span class="italic">aesthetic detail</span></h2>
-            </div>
-
-            <!-- Founder Card -->
-            <div class="foundation-hero">
-                <div class="doctor-badge">
-                    <img src="https://res.cloudinary.com/didtfhfme/image/upload/v1791874667/img_behwid.webp" 
-                         alt="Natalie Kash, MD, FAAD - Founder & Board-Certified Dermatologist" 
-                         class="doctor-img"
-                         width="160"
-                         height="160"
-                         loading="lazy">
-                    <div class="doctor-credential-pill">MD • FAAD</div>
-                </div>
-                <div class="foundation-content">
-                    <h3>Led by Natalie Kash, MD, FAAD</h3>
-                    <p>
-                        Root Hair & Skin blends personalized cosmetic care with a dermatology foundation, so every treatment plan is informed by medical expertise and aesthetic judgment.
-                    </p>
-                </div>
             </div>
 
             <!-- 3 Pillars -->
